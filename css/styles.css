@@ -1,0 +1,39 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse
+    ;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
+
+.quote {
+    position: relative;
+    left: 30px;
+}
+
+.noborder {
+    border: none;
+}
+
+.details {
+    border:1px solid black;
+}
+
+.inlineHead {
+    width: 85px;
+    margin-top:-15px;
+    margin-left:5px;
+    background:white;
+}
