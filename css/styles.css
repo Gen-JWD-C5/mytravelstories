@@ -1,3 +1,4 @@
+
 img {
     margin: auto;
     display: block;
@@ -9,7 +10,6 @@ nav {
     background-color: rgb(173, 70, 70);
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    
 }
 
 a {
@@ -22,6 +22,50 @@ a {
 a:hover {
     background-color: rgb(42, 106, 112);
 }
+
+header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem
+}
+
+h1 {
+   font-size: 3rem; 
+   color: rgb(78, 71, 71);
+}
+
+blockquote {
+    font-size: 1.5rem;
+    color:rgb(146, 142, 142);
+}
+
+/* home styling */
+table {
+    width: 940px;
+    border: 1px solid black;
+    border-collapse: collapse
+    ;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
 
 /* stories page */
 /* using display for layout */
@@ -55,42 +99,65 @@ a:hover {
     margin: 5px; 
   }
 
-table {
-    border: 1px solid black;
-    border-collapse: collapse
-    ;
-}
-td {
-    border: 1px solid black;
-    text-align: center;
-}
+/* contact styling */
 
-th {
-    border: 1px solid black;
-    background-color: lightgray;
-}
-
-th, td {
-    padding: 15px;
+form {
+    width: 700px;
     text-align: left;
-  }
-
-.quote {
-    position: relative;
-    left: 30px;
+    margin: 0 auto;
+    background-color: rgb(240, 240, 240);
+    padding: 30px 0;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
 }
 
-.noborder {
+fieldset {
     border: none;
+    width: 750px;
 }
 
-.details {
-    border:1px solid black;
+input { 
+    width: 650px;
+    height: 2rem;
 }
 
-.inlineHead {
-    width: 85px;
-    margin-top:-15px;
-    margin-left:5px;
-    background:white;
+select {
+    width: 650px;
+    height: 2.5rem;
+}
+
+.radio {
+    display: inline-block;
+    text-align: left;
+}
+
+textarea {
+    width: 650px;
+    
+}
+input[type=radio] {
+    border: 0px;
+    width: 50px;
+    height: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+button {
+    display: block;
+    background-color: rgb(65, 190, 65);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
 }

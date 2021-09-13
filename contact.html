@@ -8,25 +8,28 @@
     <title>My Travel Stories</title>
 </head>
 <body>
-    <img src="images/London_small.jpg">
+    <header>
+        <img src="images/London_small.jpg">
     <nav>
         <a href="./index.html">Home</a>
         <a href="./stories.html">Stories</a>
         <a href="#contact">Reach Me</a>
     </nav>
+    <h1>Lets connect</h1>
+        <blockquote>"Life is Either a daring adventure or nothing at all</blockquote>
+    </header>
+    
     <section>
-        <h1>Lets connect</h1>
-        <p class="quote">"Life is Either a daring adventure or nothing at all</p>
-    </section>
-    <section>
+        
+  
     <form>
         <fieldset class="details">
-            <h4 class="inlineHead">Your details</h4>
-            <label for="firstName">First Name</label>
+            
+            <label for="firstName">First Name</label><br>
             <input type="text" id="firstName" name="firstName" placeholder="Your name.."><br><br>
-            <label for="lastName">Last Name</label>
+            <label for="lastName">Last Name</label><br>
             <input type="text" id="lastName" name="lastName" placeholder="Your last name.."><br><br>
-            <label for="country">Country</label>
+            <label for="country">Country</label><br>
             <select name="country" id="country">
                 <option value="Australia">Australia</option>
                 <option value="Italy">Italy</option>
@@ -34,17 +37,16 @@
                 <option value="United Kingdom">United Kingdom</option>
             </select>
         </fieldset><br>
-        <fieldset class="noborder">
+        <fieldset class="radio">
             <label>How did you hear about me?</label>
-            <input type="radio" id="website" name="how" checked="checked">
-            <label for="website">Website</label>
-            <input type="radio" id="facebook" name="how">
-            <label for="facebook">Facebook</label>
+            <label> <input type="radio" value="Website" name="how" checked="checked"> Website</label>
+            <label> <input type="radio" value="facebook" name="how">Facebook</label>
         </fieldset>
-        <fieldset class="noborder">
+        <fieldset >
             <label for="comment">Leave your comment here:</label><br><br>
             <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Write something..."></textarea>
         </fieldset>
+        <button>Submit</button>
     </form>
     </section>
     <footer>
